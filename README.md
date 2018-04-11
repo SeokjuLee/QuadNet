@@ -1,7 +1,5 @@
 ## QuadNet
-PyTorch implementation on deep quadruplet networks (AAAI 2018)
-
-Paper: [Co-domain Embedding using Deep Quadruplet Networks for Unseen Traffic Sign Recognition](https://arxiv.org/pdf/1712.01907.pdf) 
+PyTorch implementation on [Deep Quadruplet Networks (AAAI 2018)](https://arxiv.org/pdf/1712.01907.pdf) 
 
 
 ### Datasets
