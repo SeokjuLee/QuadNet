@@ -10,8 +10,8 @@ Paper: [Co-domain Embedding using Deep Quadruplet Networks for Unseen Traffic Si
 
 
 ### Citation
-'''
-@inProceedings{kim2017co,
+```
+@InProceedings{kim2017co,
     title={Co-domain Embedding using Deep Quadruplet Networks for Unseen Traffic Sign Recognition},
     author={Kim, Junsik and Lee, Seokju and Oh, Tae-Hyun and Kweon, In So},
     Booktitle = {Proceedings of the 32th AAAI Conference on Artificial Intelligence},
@@ -19,4 +19,4 @@ Paper: [Co-domain Embedding using Deep Quadruplet Networks for Unseen Traffic Si
     year={2018},
     Month = {February}
 }
-'''
+```
