@@ -11,6 +11,7 @@ python main.py -a QuadNetSingle --evaluate --pretrained /media/rcv/SSD1/git/Quad
 
 python main.py
 python main.py --evaluate --pretrained /media/rcv/SSD1/git/QuadNet/gtsrb_data/Wed-Apr-11-19:49/100epochs,b50,lr0.0005/model_best.pth.tar
+python main.py --evaluate --pretrained /media/rcv/SSD1/git/QuadNet/gtsrb_data/Wed-Apr-11-22:58/100epochs,b50,lr0.0005/model_best.pth.tar
 
 python main.py --dataset tt100k_data
 
@@ -187,9 +188,9 @@ def main():
                         num_workers=args.workers, 
                         batch_size=args.batch_size)
 
-    if args.architecture == 'QuadNet':
+    if args.arch == 'QuadNet':
         net = QuadNet().cuda()
-    if args.architecture == 'QuadNetSingle':
+    if args.arch == 'QuadNetSingle':
         net = QuadNetSingle().cuda()
 
     if args.pretrained:
