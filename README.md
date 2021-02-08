@@ -7,14 +7,12 @@ PyTorch implementation on [Deep Quadruplet Networks (AAAI 2018)](https://arxiv.o
 + [TT100K](http://cg.cs.tsinghua.edu.cn/traffic-sign/)
 
 
-### Citation
+### Please cite our paper in your publications if it helps your research:
 ```
 @InProceedings{kim2017co,
     title={Co-domain Embedding using Deep Quadruplet Networks for Unseen Traffic Sign Recognition},
     author={Kim, Junsik and Lee, Seokju and Oh, Tae-Hyun and Kweon, In So},
     Booktitle = {Proceedings of the 32th AAAI Conference on Artificial Intelligence},
-    Url={https://arxiv.org/abs/1712.01907},
-    year={2018},
-    Month = {February}
+    year={2018}
 }
 ```
